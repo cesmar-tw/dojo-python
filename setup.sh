@@ -1,2 +1,2 @@
-#!/bin/bash
-source cesmar-dojo/bin/activate
+#/bin/bash
+source dojo-python/bin/activate
