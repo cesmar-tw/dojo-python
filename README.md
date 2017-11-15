@@ -12,4 +12,6 @@ Caixa eletrônico | python dojo-python/exercises/caixa/caixa.py
 Caixa eletrônico (testes) | python dojo-python/exercises/caixa/test_caixa.py
 FizzBuzz | python dojo-python/exercises/fizzbuzz/fizzbuzz.py
 FizzBuzz (testes) | python dojo-python/exercises/fizzbuzz/test_fizzbuzz.py
+Romanos | python dojo-python/exercises/romanos/romanos.py
+Romanos (testes) | python dojo-python/exercises/romanos/test_romanos.py
 
