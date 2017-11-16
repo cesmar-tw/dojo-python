@@ -17,10 +17,10 @@ class CaixaEletronicoTest(unittest.TestCase):
 
     def test_menor_numero_notas(self):
         self.assertEquals(len(self.caixaEletronico.sacar(60)), 2)
-        self.assertEquals(len(self.caixaEletronico.sacar(50)).length, 1)
-        self.assertEquals(len(self.caixaEletronico.sacar(90)).length, 3)
-        self.assertEquals(len(self.caixaEletronico.sacar(100)).length, 1)
-        self.assertEquals(len(self.caixaEletronico.sacar(40)).length, 2)
+        self.assertEquals(len(self.caixaEletronico.sacar(50)), 1)
+        self.assertEquals(len(self.caixaEletronico.sacar(90)), 3)
+        self.assertEquals(len(self.caixaEletronico.sacar(100)), 1)
+        self.assertEquals(len(self.caixaEletronico.sacar(40)), 2)
 
     def test_notas_disponiveis(self):
         self.assertEquals(len(self.caixaEletronico.sacar(102)), 0)
