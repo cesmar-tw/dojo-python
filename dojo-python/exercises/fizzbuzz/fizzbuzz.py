@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
+
 class FizzBuzz():
     """
     * Retorne as strings Fizz, Buzz ou FizzBuzz dependendo do valor da entrada;
@@ -8,6 +10,9 @@ class FizzBuzz():
     * Se o valor da entrada for divisível por 3 e por 5, diga FizzBuzz;
     * O valor de entrada é qualquer número inteiro válido;
     """
+
+    def __init__(self):
+        pass
 
     def ehFizz(self, valor):
         pass
@@ -22,6 +27,7 @@ class FizzBuzz():
         """ Implemente aqui a logica do FizzBuzz"""
         print("Executando o FizzBuzz para o valor ", valor)
         self.ehFizzBuzz(valor)
+
 
 if __name__ == '__main__':
     fizzBuzz = FizzBuzz()

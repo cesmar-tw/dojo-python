@@ -3,6 +3,7 @@
 import unittest
 from fizzbuzz import FizzBuzz
 
+
 class FizzBuzzTest(unittest.TestCase):
 
     def setUp(self):
@@ -35,6 +36,7 @@ class FizzBuzzTest(unittest.TestCase):
         self.assertFalse(self.fizzBuzz.ehFizzBuzz(self.numeros[5]))
         self.assertFalse(self.fizzBuzz.ehFizzBuzz(self.numeros[10]))
         self.assertFalse(self.fizzBuzz.ehFizzBuzz(self.numeros[100]))
+
 
 if __name__ == '__main__':
     unittest.main()

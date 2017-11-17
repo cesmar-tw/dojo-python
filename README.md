@@ -14,4 +14,6 @@ FizzBuzz | python dojo-python/exercises/fizzbuzz/fizzbuzz.py
 FizzBuzz (testes) | python dojo-python/exercises/fizzbuzz/test_fizzbuzz.py
 Romanos | python dojo-python/exercises/romanos/romanos.py
 Romanos (testes) | python dojo-python/exercises/romanos/test_romanos.py
+Calculadora | python dojo-python/exercises/calculadora/calculadora.py
+Calculadora (testes) | python dojo-python/exercises/calculadora/test_calculadora.py
 
