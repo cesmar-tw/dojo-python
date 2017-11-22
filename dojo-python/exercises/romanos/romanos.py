@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-class ConversorDeNumerosRomanos():
+
+class ConversorDeNumerosRomanos:
     """
     * Converte números decimais para romanos e vice-versa. 
     * Exemplos: 
@@ -13,6 +14,9 @@ class ConversorDeNumerosRomanos():
     * Não faremos conversão de números maiores que 3000 (os romanos não sabiam contar além disso)
     """
 
+    def __init__(self):
+        pass
+
     def romanosParaDecimal(self, numero):
          """ Implemente aqui o comando para converter de romano para decimal"""
 
@@ -21,6 +25,6 @@ class ConversorDeNumerosRomanos():
 
 
 if __name__ == '__main__':
-    conversorDeNumerosRomano = ConversorDeNumerosRomano()
+    conversorDeNumerosRomano = ConversorDeNumerosRomanos()
     conversorDeNumerosRomano.romanosParaDecimal()
     conversorDeNumerosRomano.decimalParaRomano()

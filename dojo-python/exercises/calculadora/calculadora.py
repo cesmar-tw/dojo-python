@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-class Calculadora():
+class Calculadora:
     """
     * Calculadora receber dois números e aplica o cálculo desejado.
     * Operações disponíveis:
@@ -11,6 +11,8 @@ class Calculadora():
     * - multiplicar
     * - dividir
     """
+    def __init__(self):
+        pass
 
     def somar(self, valor1, valor2):
         """ Implemente aqui a função de soma """

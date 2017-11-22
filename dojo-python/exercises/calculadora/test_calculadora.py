@@ -4,7 +4,7 @@ import unittest
 from calculadora import Calculadora
 
 
-class Calculadora(unittest.TestCase):
+class CalculadoraTest(unittest.TestCase):
     """
     * Calculadora receber dois números e aplica o cálculo desejado.
     * Operações disponíveis:
@@ -17,16 +17,16 @@ class Calculadora(unittest.TestCase):
     def setUp(self):
         self.calculadora = Calculadora()
 
-    def test_soma(self):
+    def testSomar(self):
         self.assertEquals(self.calculadora.somar(1, 1), 2)
 
-    def test_subtrair(self):
+    def testSubtrair(self):
         self.assertEquals(self.calculadora.subtrair(1, 1), 0)
 
-    def test_multiplicar(self):
+    def testMultiplicar(self):
         self.assertEquals(self.calculadora.multiplicar(2, 2), 4)
 
-    def test_dividir(self):
+    def testDividir(self):
         self.assertEquals(self.calculadora.dividir(4, 2), 2)
 
 

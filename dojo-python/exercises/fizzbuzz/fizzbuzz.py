@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-class FizzBuzz():
+class FizzBuzz:
     """
     * Retorne as strings Fizz, Buzz ou FizzBuzz dependendo do valor da entrada;
     * Se o valor da entrada for divisível por 3, diga Fizz;
