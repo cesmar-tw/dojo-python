@@ -7,7 +7,7 @@ from fizzbuzz import FizzBuzz
 class FizzBuzzTest(unittest.TestCase):
 
     def setUp(self):
-        self.numeros = list(range(100))
+        self.numeros = list(range(101))
         self.fizzBuzz = FizzBuzz()
 
     def test_fizz(self):
@@ -15,7 +15,6 @@ class FizzBuzzTest(unittest.TestCase):
         self.assertTrue(self.fizzBuzz.ehFizz(self.numeros[3]))
         self.assertTrue(self.fizzBuzz.ehFizz(self.numeros[33]))
         self.assertTrue(self.fizzBuzz.ehFizz(self.numeros[66]))
-        self.assertFalse(self.fizzBuzz.ehFizz(self.numeros[0]))
         self.assertFalse(self.fizzBuzz.ehFizz(self.numeros[5]))
         self.assertFalse(self.fizzBuzz.ehFizz(self.numeros[10]))
 

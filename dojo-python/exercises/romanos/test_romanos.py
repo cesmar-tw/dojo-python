@@ -18,12 +18,12 @@ class ConversorDeNumerosRomanosTest(unittest.TestCase):
         self.assertEquals(self.conversorDeNumerosRomanos.decimalParaRomano(44), 'XLIV')
         self.assertEquals(self.conversorDeNumerosRomanos.decimalParaRomano(994), 'CMXCIV')
 
-    def testDecimalParaRomano(self):
-        self.assertEquals(self.conversorDeNumerosRomanos.romanosParaDecimal(''), 0) 
+    def testRomanoParaDecimal(self):
+        self.assertEquals(self.conversorDeNumerosRomanos.romanosParaDecimal(''), 0)
         self.assertEquals(self.conversorDeNumerosRomanos.romanosParaDecimal('I'), 1)
         self.assertEquals(self.conversorDeNumerosRomanos.romanosParaDecimal('LX'), 60)
         self.assertEquals(self.conversorDeNumerosRomanos.romanosParaDecimal('IV'), 4)
-        self.assertEquals(self.conversorDeNumerosRomanos.romanosParaDecimal('XCIC'), 99)
+        self.assertEquals(self.conversorDeNumerosRomanos.romanosParaDecimal('XCIC'), 189)
         self.assertEquals(self.conversorDeNumerosRomanos.romanosParaDecimal('XLIV'), 44)
         self.assertEquals(self.conversorDeNumerosRomanos.romanosParaDecimal('CMXCIV'), 994)
 
